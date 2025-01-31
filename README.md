@@ -23,7 +23,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 
 2. Download the docker-compose file:
 ```bash
-curl -O https://raw.githubusercontent.com/yourusername/sales-call-analysis/main/docker-compose.prod.yml
+curl -O https://raw.githubusercontent.com/sanidhaykumar/sales-call-analysis-railway/main/docker-compose.prod.yml
 mv docker-compose.prod.yml docker-compose.yml
 ```
 
@@ -118,9 +118,5 @@ curl http://localhost:3000/api/health
 ## Support
 
 For issues and support:
-1. Check the [Issues](https://github.com/yourusername/sales-call-analysis/issues) section
+1. Check the [Issues](https://github.com/sanidhaykumar/sales-call-analysis-railway/issues) section
 2. Create a new issue if needed
-
-## License
-
-This project is licensed under the terms of our commercial license. See [LICENSE](LICENSE) for details.
