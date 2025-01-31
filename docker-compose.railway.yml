@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    build: .
+    image: sanidhaykumar/sales-call-analysis:latest
     ports:
       - "3000:3000"
     environment:
@@ -22,6 +22,13 @@ services:
       retries: 3
       start_period: 5s
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 512M
 
 volumes:
-  uploads: 
+  uploads:
+    driver: local 
